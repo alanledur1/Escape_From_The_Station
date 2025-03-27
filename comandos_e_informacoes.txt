@@ -1,0 +1,39 @@
+<BAIXAR O NPM E AS DEPENDÊNCIAS>
+
+npm install
+npm install bycontract
+npm install prompt-sync
+
+
+<COMANDOS DISPONÍVEIS>
+
+- ler <registros> - Lê os registro sobre a explosão.
+    comando para ler:
+      "ler registro" (obs.: funciona somente na sala Laboratorio);
+
+- pega <item> - Adiciona um item à mochila.
+    comandos para pegar os itens:
+      "pega chave" (chave de fenda);
+      "pega cartao" (cartao de acesso);
+      "pega chip" (chip de controle);
+      "pega bateria" (bateria reserva);
+      "pega martelo" 
+
+- reparar <objeto> - Tenta consertar um objeto danificado.
+    comandos para reparar:
+      "reparar painel de controle" (obs.: funciona somente na sala ModuloControle);
+      "reparar foguete" (obs.: funciona somente na sala Hangar);
+      "reparar sistema de propulsao" (obs.: funciona somente na sala Motores);
+
+- inventario - Exibe os itens armazenados na mochila.
+
+- sai <sala de destino> - Move-se para outra sala
+    comandos para as salas: 
+      "sai ModuloControle"
+      "sai Laboratorio"
+      "sai Hangar"
+      "sai Motores"
+
+- fim <fim do jogo> - Termina o jogo.
+  comando para terminar:
+    "fim"
